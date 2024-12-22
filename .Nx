@@ -17,7 +17,7 @@ local _, a, b = {}, {
 				28,
 				'ModuleScript',
 				{
-					'Icons'
+					'Icons'  
 				}
 			},
 			{
@@ -31,7 +31,7 @@ local _, a, b = {}, {
 						50,
 						'ModuleScript',
 						{
-							'Dark'
+							'Ocean Breeze'
 						}
 					},
 					{
@@ -45,7 +45,7 @@ local _, a, b = {}, {
 						51,
 						'ModuleScript',
 						{
-							'Darker'
+							'Sunset Glow'
 						}
 					},
 					{
@@ -122,7 +122,7 @@ local _, a, b = {}, {
 						49,
 						'ModuleScript',
 						{
-							'Aqua'
+							'Royal Twilight'
 						}
 					},
 					{
@@ -4350,11 +4350,28 @@ local aa = {
 			ToggleSlider = Color3.fromRGB(171, 71, 188),
 			ToggleToggled = Color3.fromRGB(123, 31, 162),
 			SliderRail = Color3.fromRGB(206, 147, 216),
+			DropdownFrame = Color3.fromRGB(236, 179, 255),
+			DropdownHolder = Color3.fromRGB(206, 147, 216),
+			DropdownBorder = Color3.fromRGB(171, 71, 188),
+			DropdownOption = Color3.fromRGB(186, 104, 200),
+			Keybind = Color3.fromRGB(123, 31, 162),
+			Input = Color3.fromRGB(243, 229, 245),
+			InputFocused = Color3.fromRGB(206, 147, 216),
+			InputIndicator = Color3.fromRGB(171, 71, 188),
+			Dialog = Color3.fromRGB(243, 229, 245),
+			DialogHolder = Color3.fromRGB(236, 179, 255),
+			DialogHolderLine = Color3.fromRGB(186, 104, 200),
+			DialogButton = Color3.fromRGB(171, 71, 188),
+			DialogButtonBorder = Color3.fromRGB(206, 147, 216),
+			DialogBorder = Color3.fromRGB(236, 179, 255),
+			DialogInput = Color3.fromRGB(243, 229, 245),
+			DialogInputLine = Color3.fromRGB(186, 104, 200),
 			Text = Color3.fromRGB(74, 20, 140),
 			SubText = Color3.fromRGB(123, 31, 162),
-			Hover = Color3.fromRGB(206, 147, 216),
+			Hover = Color3.fromRGB(186, 104, 200),
 			HoverChange = 0.05
 		}
+		
 		
 	end,
 	[50] = function()
@@ -4375,11 +4392,28 @@ local aa = {
 			ToggleSlider = Color3.fromRGB(77, 182, 172),
 			ToggleToggled = Color3.fromRGB(33, 150, 243),
 			SliderRail = Color3.fromRGB(129, 212, 250),
+			DropdownFrame = Color3.fromRGB(128, 222, 234),
+			DropdownHolder = Color3.fromRGB(77, 208, 225),
+			DropdownBorder = Color3.fromRGB(33, 150, 243),
+			DropdownOption = Color3.fromRGB(77, 182, 172),
+			Keybind = Color3.fromRGB(38, 198, 218),
+			Input = Color3.fromRGB(224, 247, 250),
+			InputFocused = Color3.fromRGB(129, 212, 250),
+			InputIndicator = Color3.fromRGB(77, 182, 172),
+			Dialog = Color3.fromRGB(224, 247, 250),
+			DialogHolder = Color3.fromRGB(129, 212, 250),
+			DialogHolderLine = Color3.fromRGB(77, 208, 225),
+			DialogButton = Color3.fromRGB(38, 198, 218),
+			DialogButtonBorder = Color3.fromRGB(128, 222, 234),
+			DialogBorder = Color3.fromRGB(129, 212, 250),
+			DialogInput = Color3.fromRGB(224, 247, 250),
+			DialogInputLine = Color3.fromRGB(128, 222, 234),
 			Text = Color3.fromRGB(0, 105, 92),
 			SubText = Color3.fromRGB(0, 131, 143),
-			Hover = Color3.fromRGB(128, 222, 234),
+			Hover = Color3.fromRGB(77, 208, 225),
 			HoverChange = 0.04
 		}
+		
 		
 	end,
 	[51] = function()
@@ -4400,11 +4434,28 @@ local aa = {
 			ToggleSlider = Color3.fromRGB(255, 138, 101),
 			ToggleToggled = Color3.fromRGB(255, 94, 77),
 			SliderRail = Color3.fromRGB(255, 215, 151),
-			Text = Color3.fromRGB(255, 59, 48),
-			SubText = Color3.fromRGB(255, 87, 34),
-			Hover = Color3.fromRGB(255, 138, 101),
-			HoverChange = 0.05
+			DropdownFrame = Color3.fromRGB(255, 204, 153),
+			DropdownHolder = Color3.fromRGB(255, 153, 102),
+			DropdownBorder = Color3.fromRGB(255, 128, 77),
+			DropdownOption = Color3.fromRGB(255, 183, 77),
+			Keybind = Color3.fromRGB(255, 102, 51),
+			Input = Color3.fromRGB(255, 243, 224),
+			InputFocused = Color3.fromRGB(255, 204, 153),
+			InputIndicator = Color3.fromRGB(255, 128, 77),
+			Dialog = Color3.fromRGB(255, 243, 224),
+			DialogHolder = Color3.fromRGB(255, 183, 77),
+			DialogHolderLine = Color3.fromRGB(255, 128, 77),
+			DialogButton = Color3.fromRGB(255, 94, 77),
+			DialogButtonBorder = Color3.fromRGB(255, 138, 101),
+			DialogBorder = Color3.fromRGB(255, 215, 151),
+			DialogInput = Color3.fromRGB(255, 237, 214),
+			DialogInputLine = Color3.fromRGB(255, 138, 101),
+			Text = Color3.fromRGB(102, 51, 0),
+			SubText = Color3.fromRGB(153, 102, 51),
+			Hover = Color3.fromRGB(255, 183, 77),
+			HoverChange = 0.04
 		}
+		
 		
 	end,
 	[52] = function()
