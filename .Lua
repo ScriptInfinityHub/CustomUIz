@@ -4275,7 +4275,7 @@ local aa = {
 				'Rose',
 				'Golden',
 				'Dark Typewriter',
-				'Jungle',
+				'Night Typewriter',
 				'Midnight'
 			}
 		}
@@ -4604,40 +4604,40 @@ local aa = {
 		local aa, ab, ac, ad, ae = b(56)
 		return {
 			Name = 'Night Typewriter',
-			Accent = Color3.fromRGB(52, 134, 178),
-				AcrylicMain = Color3.fromRGB(20, 20, 20),
-				AcrylicBorder = Color3.fromRGB(80, 118, 130),
-				AcrylicGradient = ColorSequence.new(Color3.fromRGB(41, 101, 139), Color3.fromRGB(11, 132, 128)),
-				AcrylicNoise = 0.92,
-				TitleBarLine = Color3.fromRGB(68, 135, 136),
-				Tab = Color3.fromRGB(126, 175, 180),
-				Element = Color3.fromRGB(66, 130, 160),
-				ElementBorder = Color3.fromRGB(40, 100, 122),
-				InElementBorder = Color3.fromRGB(75, 109, 110),
-				ElementTransparency = 0.87,
-				ToggleSlider = Color3.fromRGB(100, 152, 160),
-				ToggleToggled = Color3.fromRGB(0, 0, 0),
-				SliderRail = Color3.fromRGB(115, 150, 160),
-				DropdownFrame = Color3.fromRGB(158, 194, 200),
-				DropdownHolder = Color3.fromRGB(39, 99, 116),
-				DropdownBorder = Color3.fromRGB(33, 119, 120),
-				DropdownOption = Color3.fromRGB(121, 152, 160),
-				Keybind = Color3.fromRGB(108, 153, 160),
-				Input = Color3.fromRGB(112, 156, 160),
-				InputFocused = Color3.fromRGB(14, 35, 40),
-				InputIndicator = Color3.fromRGB(137, 181, 190),
-				Dialog = Color3.fromRGB(31, 130, 130),
-				DialogHolder = Color3.fromRGB(33, 99, 109),
-				DialogHolderLine = Color3.fromRGB(34, 81, 86),
-				DialogButton = Color3.fromRGB(43, 72, 80),
-				DialogButtonBorder = Color3.fromRGB(62, 100, 110),
-				DialogBorder = Color3.fromRGB(26, 86, 100),
-				DialogInput = Color3.fromRGB(52, 85, 78),
-				DialogInputLine = Color3.fromRGB(70, 120, 130),
-				Text = Color3.fromRGB(240, 240, 240),
-				SubText = Color3.fromRGB(170, 170, 170),
-				Hover = Color3.fromRGB(112, 155, 160),
-				HoverChange = 0.04,
+			Accent = Color3.fromRGB(58, 117, 196), -- น้ำเงินเข้ม
+			AcrylicMain = Color3.fromRGB(20, 20, 20), -- ดำลึก
+			AcrylicBorder = Color3.fromRGB(35, 35, 35), -- ขอบดำเข้ม
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
+			AcrylicNoise = 0.8,
+			TitleBarLine = Color3.fromRGB(80, 80, 80), -- ขอบเทาเข้ม
+			Tab = Color3.fromRGB(58, 117, 196), -- น้ำเงินเข้ม
+			Element = Color3.fromRGB(25, 25, 25), -- ดำลึก
+			ElementBorder = Color3.fromRGB(35, 35, 35), -- ขอบดำเข้ม
+			InElementBorder = Color3.fromRGB(35, 35, 35),
+			ElementTransparency = 0,
+			ToggleSlider = Color3.fromRGB(58, 117, 196), -- น้ำเงินเข้ม
+			ToggleToggled = Color3.fromRGB(200, 200, 200), -- ขาวเทาสำหรับความชัดเจน
+			SliderRail = Color3.fromRGB(35, 35, 35), -- รางสีดำเข้ม
+			DropdownFrame = Color3.fromRGB(30, 30, 30), -- กล่องดำเข้ม
+			DropdownHolder = Color3.fromRGB(30, 30, 30),
+			DropdownBorder = Color3.fromRGB(20, 20, 20), -- ขอบดำลึก
+			DropdownOption = Color3.fromRGB(58, 117, 196), -- น้ำเงินเข้ม
+			Keybind = Color3.fromRGB(25, 25, 25), -- ดำลึก
+			Input = Color3.fromRGB(15, 15, 15), -- ดำสนิท
+			InputFocused = Color3.fromRGB(35, 35, 35), -- ดำเข้มเมื่อโฟกัส
+			InputIndicator = Color3.fromRGB(100, 150, 200), -- น้ำเงินอ่อน
+			Dialog = Color3.fromRGB(20, 20, 20), -- พื้นหลังดำลึก
+			DialogHolder = Color3.fromRGB(30, 30, 30), -- กรอบดำเข้ม
+			DialogHolderLine = Color3.fromRGB(35, 35, 35), -- เส้นขอบดำเข้ม
+			DialogButton = Color3.fromRGB(25, 25, 25), -- ปุ่มดำลึก
+			DialogButtonBorder = Color3.fromRGB(35, 35, 35),
+			DialogBorder = Color3.fromRGB(80, 80, 80), -- ขอบเทาเข้ม
+			DialogInput = Color3.fromRGB(15, 15, 15), -- กล่องข้อความดำสนิท
+			DialogInputLine = Color3.fromRGB(58, 117, 196), -- เส้นน้ำเงินเข้ม
+			Text = Color3.fromRGB(200, 200, 200), -- ขาวเทาอ่านง่าย
+			SubText = Color3.fromRGB(150, 150, 150), -- ข้อความรองสีเทา
+			Hover = Color3.fromRGB(58, 117, 196), -- น้ำเงินเข้มเมื่อชี้
+			HoverChange = 0.04
 		}
 	end,
 	[57] = function()
