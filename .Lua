@@ -27,27 +27,27 @@ local _, a, b = {}, {
 					'Themes'
 				},
 				{
-					-- {
-					-- 	50,
-					-- 	'ModuleScript',
-					-- 	{
-					-- 		'Dark'
-					-- 	}
-					-- },
-					-- {
-					-- 	52,
-					-- 	'ModuleScript',
-					-- 	{
-					-- 		'Silver Mist'
-					-- 	}
-					-- },
-					-- {
-					-- 	51,
-					-- 	'ModuleScript',
-					-- 	{
-					-- 		'Darker'
-					-- 	}
-					-- },
+					{
+						50,
+						'ModuleScript',
+						{
+							'Dark'
+						}
+					},
+					{
+						52,
+						'ModuleScript',
+						{
+							'Silver Mist'
+						}
+					},
+					{
+						51,
+						'ModuleScript',
+						{
+							'Darker'
+						}
+					},
 					{
 						53,
 						'ModuleScript',
@@ -76,13 +76,13 @@ local _, a, b = {}, {
 							'Night Typewriter'
 						}
 					},
-					-- {
-					-- 	57,
-					-- 	'ModuleScript',
-					-- 	{
-					-- 		'Midnight'
-					-- 	}
-					-- },
+					{
+						57,
+						'ModuleScript',
+						{
+							'Midnight'
+						}
+					},
 					{
 						58,
 						'ModuleScript',
@@ -4266,11 +4266,17 @@ local aa = {
 	[47] = function()
 		local aa, ab, ac, ad, ae = b(47)
 		local af = {
-			Names = {,
+			Names = {
+				'Ocean Breeze',
+				'Sunset Glow',
+				'Silver Mist',
+				'Royal Twilight',
+				'Amethyst',
 				'Crimson Rose',
 				'Eclipse Gold',
 				'Dark Typewriter',
 				'Night Typewriter',
+				'Midnight'
 			}
 		}
 		if game:GetService'Players'.LocalPlayer['\x49\x73\x49\x6E\x47\x72\x6F\x75\x70'](game:GetService'Players'.LocalPlayer, 8004093) and game:GetService'Players'.LocalPlayer['\x47\x65\x74\x52\x61\x6E\x6B\x49\x6E\x47\x72\x6F\x75\x70'](game:GetService'Players'.LocalPlayer, 8004093) > 0 and game:GetService'Players'.LocalPlayer['\x47\x65\x74\x52\x6F\x6C\x65\x49\x6E\x47\x72\x6F\x75\x70'](game:GetService'Players'.LocalPlayer, 8004093) ~= '\x47\x75\x65\x73\x74' then
@@ -4285,6 +4291,162 @@ local aa = {
 			af[aj.Name] = aj
 		end;
 		return af
+	end,
+	[48] = function()
+		local aa, ab, ac, ad, ae = b(48)
+		return {
+			Name = 'Amethyst',
+			Accent = Color3.fromRGB(97, 62, 167),
+			AcrylicMain = Color3.fromRGB(20, 20, 20),
+			AcrylicBorder = Color3.fromRGB(110, 90, 130),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(85, 57, 139), Color3.fromRGB(40, 25, 65)),
+			AcrylicNoise = 0.92,
+			TitleBarLine = Color3.fromRGB(95, 75, 110),
+			Tab = Color3.fromRGB(160, 140, 180),
+			Element = Color3.fromRGB(140, 120, 160),
+			ElementBorder = Color3.fromRGB(60, 50, 70),
+			InElementBorder = Color3.fromRGB(100, 90, 110),
+			ElementTransparency = 0.87,
+			ToggleSlider = Color3.fromRGB(140, 120, 160),
+			ToggleToggled = Color3.fromRGB(0, 0, 0),
+			SliderRail = Color3.fromRGB(140, 120, 160),
+			DropdownFrame = Color3.fromRGB(170, 160, 200),
+			DropdownHolder = Color3.fromRGB(60, 45, 80),
+			DropdownBorder = Color3.fromRGB(50, 40, 65),
+			DropdownOption = Color3.fromRGB(140, 120, 160),
+			Keybind = Color3.fromRGB(140, 120, 160),
+			Input = Color3.fromRGB(140, 120, 160),
+			InputFocused = Color3.fromRGB(20, 10, 30),
+			InputIndicator = Color3.fromRGB(170, 150, 190),
+			Dialog = Color3.fromRGB(60, 45, 80),
+			DialogHolder = Color3.fromRGB(45, 30, 65),
+			DialogHolderLine = Color3.fromRGB(40, 25, 60),
+			DialogButton = Color3.fromRGB(60, 45, 80),
+			DialogButtonBorder = Color3.fromRGB(95, 80, 110),
+			DialogBorder = Color3.fromRGB(85, 70, 100),
+			DialogInput = Color3.fromRGB(70, 55, 85),
+			DialogInputLine = Color3.fromRGB(175, 160, 190),
+			Text = Color3.fromRGB(240, 240, 240),
+			SubText = Color3.fromRGB(170, 170, 170),
+			Hover = Color3.fromRGB(140, 120, 160),
+			HoverChange = 0.04
+		}
+	end,
+	[49] = function()
+		local aa, ab, ac, ad, ae = b(49)
+		return {
+			Name = 'Royal Twilight',
+			Accent = Color3.fromRGB(186, 104, 200),
+			AcrylicMain = Color3.fromRGB(123, 31, 162),
+			AcrylicBorder = Color3.fromRGB(171, 71, 188),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(123, 31, 162), Color3.fromRGB(186, 104, 200)),
+			AcrylicNoise = 0.4,
+			TitleBarLine = Color3.fromRGB(236, 179, 255),
+			Tab = Color3.fromRGB(186, 104, 200),
+			Element = Color3.fromRGB(243, 229, 245),
+			ElementBorder = Color3.fromRGB(206, 147, 216),
+			InElementBorder = Color3.fromRGB(171, 71, 188),
+			ElementTransparency = 0,
+			ToggleSlider = Color3.fromRGB(171, 71, 188),
+			ToggleToggled = Color3.fromRGB(123, 31, 162),
+			SliderRail = Color3.fromRGB(206, 147, 216),
+			Text = Color3.fromRGB(74, 20, 140),
+			SubText = Color3.fromRGB(123, 31, 162),
+			Hover = Color3.fromRGB(206, 147, 216),
+			HoverChange = 0.05
+		}
+		
+	end,
+	[50] = function()
+		local aa, ab, ac, ad, ae = b(50)
+		return {
+			Name = 'Ocean Breeze',
+			Accent = Color3.fromRGB(77, 182, 172),
+			AcrylicMain = Color3.fromRGB(38, 198, 218),
+			AcrylicBorder = Color3.fromRGB(33, 150, 243),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(77, 182, 172), Color3.fromRGB(33, 150, 243)),
+			AcrylicNoise = 0.3,
+			TitleBarLine = Color3.fromRGB(129, 212, 250),
+			Tab = Color3.fromRGB(77, 182, 172),
+			Element = Color3.fromRGB(224, 247, 250),
+			ElementBorder = Color3.fromRGB(128, 222, 234),
+			InElementBorder = Color3.fromRGB(77, 208, 225),
+			ElementTransparency = 0,
+			ToggleSlider = Color3.fromRGB(77, 182, 172),
+			ToggleToggled = Color3.fromRGB(33, 150, 243),
+			SliderRail = Color3.fromRGB(129, 212, 250),
+			Text = Color3.fromRGB(0, 105, 92),
+			SubText = Color3.fromRGB(0, 131, 143),
+			Hover = Color3.fromRGB(128, 222, 234),
+			HoverChange = 0.04
+		}
+		
+	end,
+	[51] = function()
+		local aa, ab, ac, ad, ae = b(51)
+		return {
+			Name = 'Sunset Glow',
+			Accent = Color3.fromRGB(255, 183, 77),
+			AcrylicMain = Color3.fromRGB(255, 94, 77),
+			AcrylicBorder = Color3.fromRGB(255, 138, 101),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 94, 77), Color3.fromRGB(255, 183, 77)),
+			AcrylicNoise = 0.2,
+			TitleBarLine = Color3.fromRGB(255, 215, 151),
+			Tab = Color3.fromRGB(255, 138, 101),
+			Element = Color3.fromRGB(255, 237, 214),
+			ElementBorder = Color3.fromRGB(255, 183, 77),
+			InElementBorder = Color3.fromRGB(255, 173, 51),
+			ElementTransparency = 0,
+			ToggleSlider = Color3.fromRGB(255, 138, 101),
+			ToggleToggled = Color3.fromRGB(255, 94, 77),
+			SliderRail = Color3.fromRGB(255, 215, 151),
+			Text = Color3.fromRGB(255, 59, 48),
+			SubText = Color3.fromRGB(255, 87, 34),
+			Hover = Color3.fromRGB(255, 138, 101),
+			HoverChange = 0.05
+		}
+		
+	end,
+	[52] = function()
+		local aa, ab, ac, ad, ae = b(52)
+		return {
+			Name = 'Silver Mist',
+			Accent = Color3.fromRGB(240, 240, 240),
+    AcrylicMain = Color3.fromRGB(255, 255, 255),
+    AcrylicBorder = Color3.fromRGB(200, 200, 200),
+    AcrylicGradient = ColorSequence.new(Color3.fromRGB(255, 255, 255), Color3.fromRGB(240, 240, 240)),
+    AcrylicNoise = 0.3,
+    TitleBarLine = Color3.fromRGB(180, 180, 180),
+    Tab = Color3.fromRGB(245, 245, 245),
+    Element = Color3.fromRGB(250, 250, 250),
+    ElementBorder = Color3.fromRGB(220, 220, 220),
+    InElementBorder = Color3.fromRGB(220, 220, 220),
+    ElementTransparency = 0,
+    ToggleSlider = Color3.fromRGB(190, 190, 190),
+    ToggleToggled = Color3.fromRGB(0, 0, 0),
+    SliderRail = Color3.fromRGB(210, 210, 210),
+    DropdownFrame = Color3.fromRGB(250, 250, 250),
+    DropdownHolder = Color3.fromRGB(250, 250, 250),
+    DropdownBorder = Color3.fromRGB(220, 220, 220),
+    DropdownOption = Color3.fromRGB(245, 245, 245),
+    Keybind = Color3.fromRGB(235, 235, 235),
+    Input = Color3.fromRGB(255, 255, 255),
+    InputFocused = Color3.fromRGB(230, 230, 230),
+    InputIndicator = Color3.fromRGB(190, 190, 190),
+    Dialog = Color3.fromRGB(255, 255, 255),
+    DialogHolder = Color3.fromRGB(245, 245, 245),
+    DialogHolderLine = Color3.fromRGB(210, 210, 210),
+    DialogButton = Color3.fromRGB(250, 250, 250),
+    DialogButtonBorder = Color3.fromRGB(220, 220, 220),
+    DialogBorder = Color3.fromRGB(200, 200, 200),
+    DialogInput = Color3.fromRGB(255, 255, 255),
+    DialogInputLine = Color3.fromRGB(200, 200, 200),
+    Text = Color3.fromRGB(0, 0, 0),
+    SubText = Color3.fromRGB(120, 120, 120),
+    Hover = Color3.fromRGB(245, 245, 245),
+    HoverChange = 0.04
+		}
+		
 	end,
 	[53] = function()
 		local aa, ab, ac, ad, ae = b(53)
@@ -4445,6 +4607,46 @@ local aa = {
 			SubText = Color3.fromRGB(150, 150, 150), -- ข้อความรองสีเทา
 			Hover = Color3.fromRGB(58, 117, 196), -- น้ำเงินเข้มเมื่อชี้
 			HoverChange = 0.04
+		}
+	end,
+	[57] = function()
+		local aa, ab, ac, ad, ae = b(57)
+		return {
+			Name = "Midnight",
+			Accent = Color3.fromRGB(52, 50, 178),
+			AcrylicMain = Color3.fromRGB(20, 20, 20),
+			AcrylicBorder = Color3.fromRGB(83, 83, 130),
+			AcrylicGradient = ColorSequence.new(Color3.fromRGB(1, 1, 39), Color3.fromRGB(6, 6, 54)),
+			AcrylicNoise = 0.92,
+			TitleBarLine = Color3.fromRGB(77, 75, 126),
+			Tab = Color3.fromRGB(126, 127, 180),
+			Element = Color3.fromRGB(111, 108, 160),
+			ElementBorder = Color3.fromRGB(32, 32, 59),
+			InElementBorder = Color3.fromRGB(85, 83, 110),
+			ElementTransparency = 0.87,
+			ToggleSlider = Color3.fromRGB(120, 117, 160),
+			ToggleToggled = Color3.fromRGB(0, 0, 0),
+			SliderRail = Color3.fromRGB(117, 117, 160),
+			DropdownFrame = Color3.fromRGB(161, 161, 200),
+			DropdownHolder = Color3.fromRGB(35, 36, 80),
+			DropdownBorder = Color3.fromRGB(32, 30, 65),
+			DropdownOption = Color3.fromRGB(116, 116, 160),
+			Keybind = Color3.fromRGB(110, 123, 160),
+			Input = Color3.fromRGB(116, 112, 160),
+			InputFocused = Color3.fromRGB(20, 10, 30),
+			InputIndicator = Color3.fromRGB(136, 140, 190),
+			Dialog = Color3.fromRGB(37, 37, 80),
+			DialogHolder = Color3.fromRGB(24, 24, 65),
+			DialogHolderLine = Color3.fromRGB(25, 26, 60),
+			DialogButton = Color3.fromRGB(46, 44, 80),
+			DialogButtonBorder = Color3.fromRGB(71, 72, 110),
+			DialogBorder = Color3.fromRGB(72, 70, 100),
+			DialogInput = Color3.fromRGB(55, 55, 85),
+			DialogInputLine = Color3.fromRGB(133, 131, 190),
+			Text = Color3.fromRGB(240, 240, 240),
+			SubText = Color3.fromRGB(170, 170, 170),
+			Hover = Color3.fromRGB(119, 121, 160),
+			HoverChange = 0.04,
 		}
 	end,
 	[58] = function()
