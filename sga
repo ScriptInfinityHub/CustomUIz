@@ -4337,7 +4337,7 @@ local aa = {
 		local aa, ab, ac, ad, ae = b(49)
 		return {
 			Name = "Aqua",
-			Accent = Color3.fromRGB(41, 162, 27) -- น้ำเงินเข้ม
+			Accent = Color3.fromRGB(41, 162, 27), -- น้ำเงินเข้ม
 			AcrylicMain = Color3.fromRGB(20, 20, 20), -- ดำลึก
 			AcrylicBorder = Color3.fromRGB(35, 35, 35), -- ขอบดำเข้ม
 			AcrylicGradient = ColorSequence.new(Color3.fromRGB(20, 20, 20), Color3.fromRGB(20, 20, 20)),
