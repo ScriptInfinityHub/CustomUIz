@@ -108,14 +108,14 @@ local _, a, b = {}, {
 						49,
 						'ModuleScript',
 						{
-							'Aqua'
+							'Midnight Emerald'
 						}
 					},
 					{
 						48,
 						'ModuleScript',
 						{
-							'Amethyst'
+							'Violet Abyss'
 						}
 					}
 				}
@@ -4255,8 +4255,8 @@ local aa = {
 			Names = {
 				'Dark',
 				'Darker',
-				'Aqua',
-				'Amethyst',
+				'Midnight Emerald',
+				'Violet Abyss',
 				'Night Typewriter',
 				'Crimson Rose',
 				'Eclipse Gold',
@@ -4279,7 +4279,7 @@ local aa = {
 	[48] = function()
 		local aa, ab, ac, ad, ae = b(48)
 		return {
-			Name = 'Amethyst',
+			Name = 'Violet Abyss',
 			Accent = Color3.fromRGB(145, 22, 189), -- น้ำเงินเข้ม
 			AcrylicMain = Color3.fromRGB(20, 20, 20), -- ดำลึก
 			AcrylicBorder = Color3.fromRGB(35, 35, 35), -- ขอบดำเข้ม
@@ -4320,7 +4320,7 @@ local aa = {
 	[49] = function()
 		local aa, ab, ac, ad, ae = b(49)
 		return {
-			Name = "Aqua",
+			Name = "Midnight Emerald",
 			Accent = Color3.fromRGB(41, 162, 27), -- น้ำเงินเข้ม
 			AcrylicMain = Color3.fromRGB(20, 20, 20), -- ดำลึก
 			AcrylicBorder = Color3.fromRGB(35, 35, 35), -- ขอบดำเข้ม
@@ -4361,7 +4361,7 @@ local aa = {
 		local aa, ab, ac, ad, ae = b(50)
 		return {
 			Name = 'Dark',
-			Accent = Color3.fromRGB(96, 205, 255),
+			Accent = Color3.fromRGB(200,200,200),
 			AcrylicMain = Color3.fromRGB(60, 60, 60),
 			AcrylicBorder = Color3.fromRGB(90, 90, 90),
 			AcrylicGradient = ColorSequence.new(Color3.fromRGB(40, 40, 40), Color3.fromRGB(40, 40, 40)),
@@ -4401,7 +4401,7 @@ local aa = {
 		local aa, ab, ac, ad, ae = b(51)
 		return {
 			Name = 'Darker',
-			Accent = Color3.fromRGB(200, 200, 200),
+			Accent = Color3.fromRGB(150, 150, 150),
 			AcrylicMain = Color3.fromRGB(30, 30, 30),
 			AcrylicBorder = Color3.fromRGB(60, 60, 60),
 			AcrylicGradient = ColorSequence.new(Color3.fromRGB(25, 25, 25), Color3.fromRGB(15, 15, 15)),
